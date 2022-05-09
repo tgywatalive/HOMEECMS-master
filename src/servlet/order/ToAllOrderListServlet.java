@@ -30,7 +30,7 @@ public class ToAllOrderListServlet extends HttpServlet {
             currentPage = "1";
         }
         if (rows == null || "".equals(rows)) {
-            rows = "5";
+            rows = "10";
         }
 
         OrderService service2 = new OrderServiceImpl();
